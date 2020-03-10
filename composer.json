@@ -1,7 +1,7 @@
 {
   "name": "leightonhughes/craft-starter",
   "description": "A starter Craft installation",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "type": "project",
   "require": {
@@ -23,6 +23,7 @@
   "scripts": {
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+      "npm login --registry=https://npm.pkg.github.com",
       "npm install"
     ],
     "post-create-project-cmd": [
