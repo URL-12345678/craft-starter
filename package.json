@@ -23,6 +23,16 @@
     "webpack": "^4.41.5"
   },
   "dependencies": {
-    "@leightonhughes/craft-base": "^0.0.70"
+    "@leightonhughes/craft-base": "^0.0.70",
+    "@leightonhughes/craft-banner-block": "^0.0.17",
+    "@leightonhughes/craft-blog": "^0.0.40",
+    "@leightonhughes/craft-cards": "^0.0.76",
+    "@leightonhughes/craft-events": "^0.0.38",
+    "@leightonhughes/craft-heading-block": "^0.0.3",
+    "@leightonhughes/craft-image-grid-block": "^0.0.27",
+    "@leightonhughes/craft-image-text-block": "^0.0.56",
+    "@leightonhughes/craft-page-builder": "^0.0.70",
+    "@leightonhughes/craft-testimonials-block": "^1.0.61",
+    "@leightonhughes/craft-text-block": "^0.0.15",
   }
 }
