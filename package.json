@@ -33,6 +33,6 @@
     "@leightonhughes/craft-image-text-block": "^0.0.56",
     "@leightonhughes/craft-page-builder": "^0.0.70",
     "@leightonhughes/craft-testimonials-block": "^1.0.61",
-    "@leightonhughes/craft-text-block": "^0.0.15",
+    "@leightonhughes/craft-text-block": "^0.0.15"
   }
 }
