@@ -1,7 +1,7 @@
 {
   "name": "leightonhughes/craft-starter",
   "description": "A starter Craft installation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "project",
   "require": {
     "craftcms/cms": "^3.4.0",
@@ -79,20 +79,5 @@
         "symlink": true
       }
     }
-  ],
-  "scripts": {
-    "post-create-project-cmd": [
-        "@php -r \"copy('.env.example', '.env');\"",
-        "@php -r \"unlink('.env.example');\"",
-        "@php -r \"unlink('composer.json');\"",
-        "@php -r \"rename('composer.json.default', 'composer.json');\"",
-        "@php -r \"unlink('CHANGELOG.md');\"",
-        "@php -r \"rename('CHANGELOG.md.default', 'CHANGELOG.md');\"",
-        "@php -r \"unlink('LICENSE.md');\"",
-        "@php -r \"unlink('README.md');\"",
-        "@php -r \"rmdir('app/resources/img');\"",
-        "@composer dump-autoload -o",
-        "@php craft setup/welcome"
-    ]
-  }
+  ]
 }
