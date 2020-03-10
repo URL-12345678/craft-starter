@@ -1,7 +1,7 @@
 {
   "name": "leightonhughes/craft-starter",
   "description": "A starter Craft installation",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "project",
   "require": {
     "craftcms/cms": "^3.4.0",
