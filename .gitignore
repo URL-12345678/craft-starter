@@ -4,7 +4,6 @@
 .project
 .settings
 .env
-.env.example
 .idea
 .npmrc
 .env
