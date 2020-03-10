@@ -1,0 +1,50 @@
+// Colour Palette
+$palette: (
+    'brand': (
+        'primary': #933FFF,
+        'secondary': #1D3055
+    ),
+    'light': (
+        'base': #FFFFFF,
+    ),
+    'dark': (
+        'base': #1b1d1e
+    ),
+    'grey': (
+        'mid': #acacac,
+        'light': #eeeeee,   
+        'base': #5D6367,
+        'dark': #384043
+    )
+);
+
+// Spacing
+$padding: 4rem;
+$spacer: 2rem;
+
+$headings-font-family: 'larsseit', 'Helvetica', 'Arial', sans-serif;
+$font-family-san-serif: 'larsseit', 'Helvetica', 'Arial', sans-serif;
+
+// $heading-scale-ratio: 1.25;
+// $display-heading-scale-ratio: 1.25;
+
+// $baseFontSize: 16px;
+$baseLineHeight: 16px;
+$baseLineHeight: 1.5;
+
+// Animations
+$trans: 0.3s;
+
+// Container
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1440px
+);
+
+$grid-gutter-width: 6rem;
+
+
+// Blocks
+$text-block-margin: $spacer * 20;

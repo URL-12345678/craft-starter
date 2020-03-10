@@ -1,0 +1,39 @@
+{% extends "_layouts/master" %}
+
+{% set seomate = {
+    config: {
+        includeSitenameInTitle: false
+    }
+} %}
+
+{% block content %}
+    <div class="page-builder">
+        {% for block in entry.homeBuilder %}
+            {% switch block.type %}
+                {% case 'text' %}
+                    {% include 'craft-text-block' with {
+                        align: 'text-block--center-align'
+                    } %}
+
+                {% case 'image' %}
+                    {% include 'craft-image-block' %}
+
+                {% case 'imageWithText' %}
+                    {% include 'craft-image-text-block' with {
+                        ratio: 6/4
+                    } %}
+
+                {% case 'projects' %}
+                    {% include 'craft-projects-block' with {
+                        props: block
+                    } %}
+
+                {% case 'gallery' %}
+                    {% include 'craft-gallery-block' %}
+
+                {% case 'logos' %}
+                    {% include 'craft-logo-block' %}
+            {% endswitch %}
+        {% endfor %}
+    </div>
+{% endblock %}

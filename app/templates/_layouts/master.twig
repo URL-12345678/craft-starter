@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <link href="{{ craft.stamp.er('/dist/app.css', 'query') }}" media="all" rel="stylesheet"/>
+        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    </head>
+
+    <body>
+        {% include 'craft-site-header' with {
+            logo: site.primaryLogo,
+            siteNav: 'craft-site-nav'
+        } only %}
+            
+        {% block content %}
+        {% endblock %}  
+        
+        {% include 'craft-site-footer/portfolio' with {
+            email: contactInfo.email,
+            phone: contactInfo.phone,
+            social: site.footerNavigation
+        } only %}
+
+        <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="{{ craft.stamp.er('/dist/app.js', 'query') }}"></script>
+    </body>
+</html>

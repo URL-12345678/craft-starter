@@ -1,0 +1,9 @@
+.page-builder > * {
+    padding-top: $spacer * 2;
+    padding-bottom: $spacer * 2;
+
+    @include media-breakpoint-down(md) {
+        padding-top: $spacer;
+        padding-bottom: $spacer;
+    }
+}

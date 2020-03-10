@@ -1,0 +1,2013 @@
+dateModified: 1583815340
+email:
+  fromEmail: hello@leightonhughes.co
+  fromName: 'Craft Components'
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  376f0665-c78d-45e2-8f0c-71f69db1d965:
+    name: General
+  427c6388-2654-4fb4-bce9-8ff262506c07:
+    name: Globals
+  987d94b2-922e-4725-abe9-74158ea1936a:
+    name: Page
+  bb8de6db-a86b-4ee2-b1c3-03956d2220d7:
+    name: Home
+  d84ce233-0545-45f2-bad6-23562fcdaff5:
+    name: SEO
+fields:
+  093530eb-190b-4031-a00a-e8bc769c7df9:
+    contentColumnType: text
+    fieldGroup: 427c6388-2654-4fb4-bce9-8ff262506c07
+    handle: phone
+    instructions: ''
+    name: Phone
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  1fb06c01-93f6-4bdb-950c-239677a02619:
+    contentColumnType: string
+    fieldGroup: 427c6388-2654-4fb4-bce9-8ff262506c07
+    handle: socialMedia
+    instructions: ''
+    name: 'Social Media'
+    searchable: true
+    settings:
+      contentTable: '{{%matrixcontent_socialmedia}}'
+      maxBlocks: ''
+      minBlocks: ''
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  3e714f4c-815e-4026-bd8f-83431c53914c:
+    contentColumnType: string
+    fieldGroup: 427c6388-2654-4fb4-bce9-8ff262506c07
+    handle: footerNavigation
+    instructions: ''
+    name: 'Footer Navigation'
+    searchable: true
+    settings:
+      contentTable: '{{%matrixcontent_footernavigation}}'
+      maxBlocks: ''
+      minBlocks: ''
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  4eed8325-a0f8-433c-9dc3-db1c519fa2d0:
+    contentColumnType: text
+    fieldGroup: 427c6388-2654-4fb4-bce9-8ff262506c07
+    handle: email
+    instructions: ''
+    name: Email
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  77639344-5367-409f-8451-dad20496dbb1:
+    contentColumnType: string
+    fieldGroup: 376f0665-c78d-45e2-8f0c-71f69db1d965
+    handle: pageBuilder
+    instructions: 'Build your content by clicking the buttons below.'
+    name: 'Page Builder'
+    searchable: true
+    settings:
+      contentTable: '{{%matrixcontent_pagebuilder}}'
+      maxBlocks: ''
+      minBlocks: ''
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  9b558714-bbef-438d-83af-839f786cd1b3:
+    contentColumnType: string
+    fieldGroup: bb8de6db-a86b-4ee2-b1c3-03956d2220d7
+    handle: homeBuilder
+    instructions: 'Build your content by clicking the buttons below.'
+    name: 'Home Builder'
+    searchable: true
+    settings:
+      contentTable: '{{%matrixcontent_homebuilder}}'
+      maxBlocks: ''
+      minBlocks: ''
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  a8c492bb-f9e6-41d8-9341-030e239e6228:
+    contentColumnType: string
+    fieldGroup: 427c6388-2654-4fb4-bce9-8ff262506c07
+    handle: headerButtons
+    instructions: ''
+    name: 'Header Buttons'
+    searchable: true
+    settings:
+      contentTable: '{{%matrixcontent_headerbuttons}}'
+      maxBlocks: ''
+      minBlocks: ''
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  aeb23a7b-8df7-4a92-857b-b9b79008f90e:
+    contentColumnType: text
+    fieldGroup: d84ce233-0545-45f2-bad6-23562fcdaff5
+    handle: seoDescription
+    instructions: 'This should be between 70 and 200 characters. Make sure your description contains your most important keywords. This is generated automatically, so use this field to override the default description.'
+    name: 'SEO Description'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '2'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b26d03ee-50d3-41a7-a446-446bde0c4a6f:
+    contentColumnType: string
+    fieldGroup: 427c6388-2654-4fb4-bce9-8ff262506c07
+    handle: secondaryLogo
+    instructions: 'The logo that will appear on smaller device screens.'
+    name: 'Secondary Logo'
+    searchable: true
+    settings:
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:a69af9b1-500d-445e-91f7-80503655b13e'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: ''
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e3c2b49b-f830-4841-92bf-502d6c97a81a:
+    contentColumnType: string
+    fieldGroup: 427c6388-2654-4fb4-bce9-8ff262506c07
+    handle: seoGlobalImage
+    instructions: ''
+    name: 'SEO Global Image'
+    searchable: true
+    settings:
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:a69af9b1-500d-445e-91f7-80503655b13e'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: ''
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  ec444952-ce2d-4bda-b2aa-e2a446515600:
+    contentColumnType: string
+    fieldGroup: 427c6388-2654-4fb4-bce9-8ff262506c07
+    handle: primaryLogo
+    instructions: 'The logo that will appear in the website header.'
+    name: 'Primary Logo'
+    searchable: true
+    settings:
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:a69af9b1-500d-445e-91f7-80503655b13e'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: ''
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+globalSets:
+  cfc9c762-8f53-4e76-b122-5a8df304400c:
+    fieldLayouts:
+      d73b1c00-b44c-4755-ab48-9c5f7f864e6d:
+        tabs:
+          -
+            fields:
+              b26d03ee-50d3-41a7-a446-446bde0c4a6f:
+                required: false
+                sortOrder: 2
+              ec444952-ce2d-4bda-b2aa-e2a446515600:
+                required: false
+                sortOrder: 1
+            name: Theme
+            sortOrder: 1
+          -
+            fields:
+              a8c492bb-f9e6-41d8-9341-030e239e6228:
+                required: false
+                sortOrder: 1
+            name: Header
+            sortOrder: 2
+          -
+            fields:
+              3e714f4c-815e-4026-bd8f-83431c53914c:
+                required: false
+                sortOrder: 1
+            name: Footer
+            sortOrder: 3
+          -
+            fields:
+              aeb23a7b-8df7-4a92-857b-b9b79008f90e:
+                required: false
+                sortOrder: 2
+              e3c2b49b-f830-4841-92bf-502d6c97a81a:
+                required: false
+                sortOrder: 1
+            name: SEO
+            sortOrder: 4
+    handle: site
+    name: Site
+  e9427ade-49e9-4979-9c87-e33f002df9a0:
+    fieldLayouts:
+      3826bb69-8ab2-437d-afc7-4ea6f3d4be85:
+        tabs:
+          -
+            fields:
+              093530eb-190b-4031-a00a-e8bc769c7df9:
+                required: false
+                sortOrder: 2
+              4eed8325-a0f8-433c-9dc3-db1c519fa2d0:
+                required: false
+                sortOrder: 1
+            name: 'Contact Details'
+            sortOrder: 1
+          -
+            fields:
+              1fb06c01-93f6-4bdb-950c-239677a02619:
+                required: false
+                sortOrder: 1
+            name: 'Social Media'
+            sortOrder: 2
+    handle: contactInfo
+    name: 'Contact Info'
+matrixBlockTypes:
+  0a017cfe-2e28-4a5a-b452-ea471a04603d:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      a8eae903-50b9-4dde-a0da-c8c14cc7051e:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: gallery
+    name: Gallery
+    sortOrder: 7
+  102575e7-47b4-4be2-b0dc-cf00abd0c310:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      3a5dcaff-c8fa-41df-8240-b09d29fc3445:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: work
+    name: Work
+    sortOrder: 12
+  11600aa1-5742-4efa-a7b2-9c947ac3d9dc:
+    field: 9b558714-bbef-438d-83af-839f786cd1b3
+    fieldLayouts:
+      9b8450b9-702a-40f7-bbcc-54f5e667d7ab:
+        tabs:
+          -
+            fields:
+              2b18c820-1e59-4157-ade0-82f085ed73ae:
+                required: false
+                sortOrder: 5
+              36ac3362-cf0c-46fd-8d57-81ca67d96e4f:
+                required: false
+                sortOrder: 1
+              4f1397f1-1149-497c-9d65-adf8c99de41d:
+                required: false
+                sortOrder: 3
+              9cb70247-0959-4fc3-9f9f-efa77772803e:
+                required: false
+                sortOrder: 2
+              9d46cce0-69b3-4944-a8fe-571141a0f103:
+                required: false
+                sortOrder: 4
+            name: Content
+            sortOrder: 1
+    fields:
+      2b18c820-1e59-4157-ade0-82f085ed73ae:
+        contentColumnType: string
+        fieldGroup: null
+        handle: backgroundVideo
+        instructions: ''
+        name: 'Background Video'
+        searchable: true
+        settings:
+          allowedKinds: null
+          defaultUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          defaultUploadLocationSubpath: ''
+          limit: '1'
+          localizeRelations: false
+          restrictFiles: ''
+          selectionLabel: ''
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: false
+          singleUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          singleUploadLocationSubpath: '{owner.slug}'
+          source: null
+          sources: '*'
+          targetSiteId: null
+          useSingleFolder: true
+          validateRelatedElements: ''
+          viewMode: list
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Assets
+      36ac3362-cf0c-46fd-8d57-81ca67d96e4f:
+        contentColumnType: text
+        fieldGroup: null
+        handle: heading
+        instructions: ''
+        name: Heading
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      4f1397f1-1149-497c-9d65-adf8c99de41d:
+        contentColumnType: text
+        fieldGroup: null
+        handle: backgroundColour
+        instructions: ''
+        name: 'Background Colour'
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: null
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      9cb70247-0959-4fc3-9f9f-efa77772803e:
+        contentColumnType: text
+        fieldGroup: null
+        handle: summary
+        instructions: ''
+        name: Summary
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: null
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      9d46cce0-69b3-4944-a8fe-571141a0f103:
+        contentColumnType: string
+        fieldGroup: null
+        handle: backgroundImage
+        instructions: ''
+        name: 'Background Image'
+        searchable: true
+        settings:
+          allowedKinds:
+            - image
+          defaultUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          defaultUploadLocationSubpath: ''
+          limit: '1'
+          localizeRelations: false
+          restrictFiles: '1'
+          selectionLabel: ''
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: false
+          singleUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          singleUploadLocationSubpath: '{owner.slug}'
+          source: null
+          sources: '*'
+          targetSiteId: null
+          useSingleFolder: true
+          validateRelatedElements: ''
+          viewMode: list
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Assets
+    handle: hero
+    name: Hero
+    sortOrder: 1
+  14c21bf0-72c7-4eff-a0b7-addff9ab2e59:
+    field: a8c492bb-f9e6-41d8-9341-030e239e6228
+    fieldLayouts:
+      ff5cfea7-13f0-4608-9f88-9d3abb9d3a11:
+        tabs:
+          -
+            fields:
+              2434bd01-d616-4f09-9248-488d825f02de:
+                required: false
+                sortOrder: 1
+              a16a8abc-3f78-4a85-b69d-d0e5626ff65e:
+                required: false
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      2434bd01-d616-4f09-9248-488d825f02de:
+        contentColumnType: text
+        fieldGroup: null
+        handle: label
+        instructions: ''
+        name: Label
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      a16a8abc-3f78-4a85-b69d-d0e5626ff65e:
+        contentColumnType: text
+        fieldGroup: null
+        handle: linkUrl
+        instructions: ''
+        name: Link
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+    handle: button
+    name: Button
+    sortOrder: 1
+  175b81c7-3512-4a5e-a96b-dab3b2868bf6:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      01820fb8-61d7-489d-94c9-597edc5eb163:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: imageGrid
+    name: 'Image Grid'
+    sortOrder: 6
+  3a32c036-1747-484c-a511-6d3610b3c5de:
+    field: 9b558714-bbef-438d-83af-839f786cd1b3
+    fieldLayouts:
+      a61b29c2-89b8-4ede-9992-a44fcd7280f7:
+        tabs:
+          -
+            fields:
+              21e59f4b-350e-4ca9-b50b-0e143451dfb3:
+                required: false
+                sortOrder: 3
+              333bfd34-f2e5-457e-b6c3-7c3117a9a089:
+                required: false
+                sortOrder: 1
+              5be29c75-24d0-4ac4-9181-e3e27882e9b0:
+                required: false
+                sortOrder: 4
+              b9fb2561-d4d7-4784-9ac9-cef2879e2d6a:
+                required: false
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      21e59f4b-350e-4ca9-b50b-0e143451dfb3:
+        contentColumnType: text
+        fieldGroup: null
+        handle: backgroundColour
+        instructions: ''
+        name: 'Background Colour'
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: null
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      333bfd34-f2e5-457e-b6c3-7c3117a9a089:
+        contentColumnType: string
+        fieldGroup: null
+        handle: testimonial
+        instructions: ''
+        name: __blank__
+        searchable: true
+        settings:
+          contentTable: '{{%stc_17_testimonial}}'
+          fieldLayout: row
+          maxRows: ''
+          minRows: ''
+          propagationMethod: all
+          selectionLabel: ''
+          staticField: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: verbb\supertable\fields\SuperTableField
+      5be29c75-24d0-4ac4-9181-e3e27882e9b0:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: backgroundOverlay
+        instructions: ''
+        name: 'Background Overlay'
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Lightswitch
+      b9fb2561-d4d7-4784-9ac9-cef2879e2d6a:
+        contentColumnType: string
+        fieldGroup: null
+        handle: backgroundImage
+        instructions: ''
+        name: 'Background Image'
+        searchable: true
+        settings:
+          allowedKinds: null
+          defaultUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          defaultUploadLocationSubpath: ''
+          limit: '1'
+          localizeRelations: false
+          restrictFiles: ''
+          selectionLabel: ''
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
+          singleUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          singleUploadLocationSubpath: '{owner.slug}'
+          source: null
+          sources: '*'
+          targetSiteId: null
+          useSingleFolder: true
+          validateRelatedElements: ''
+          viewMode: list
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Assets
+    handle: testimonials
+    name: Testimonials
+    sortOrder: 4
+  3f00ccdc-8859-4a3d-837c-e3490fc00eaa:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      6291a95e-48c7-42f9-b404-af22954772ca:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: video
+    name: Video
+    sortOrder: 8
+  54f87f23-ad09-4c36-8dd6-9e0b5937d2bb:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      814d36d6-a191-42c1-8dca-a00277cb242f:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: imageWithText
+    name: 'Image with Text'
+    sortOrder: 3
+  5ccc4e5d-1518-4174-9341-bafcfa0400e0:
+    field: 1fb06c01-93f6-4bdb-950c-239677a02619
+    fieldLayouts:
+      536729ef-6ea2-47f1-a818-6faef71d57d1:
+        tabs:
+          -
+            fields:
+              235c97e0-0760-47bd-ad9d-8ac969d5bb1c:
+                required: false
+                sortOrder: 2
+              87da66ef-94fb-4d19-bfe5-3f8988133d7b:
+                required: false
+                sortOrder: 1
+            name: Content
+            sortOrder: 1
+    fields:
+      235c97e0-0760-47bd-ad9d-8ac969d5bb1c:
+        contentColumnType: text
+        fieldGroup: null
+        handle: platformLink
+        instructions: ''
+        name: Link
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      87da66ef-94fb-4d19-bfe5-3f8988133d7b:
+        contentColumnType: text
+        fieldGroup: null
+        handle: platformName
+        instructions: ''
+        name: Name
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+    handle: platform
+    name: Platform
+    sortOrder: 1
+  612354e2-db9f-4f5c-8c7f-9c47e409f790:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      a489aa45-cfcc-4ca2-9e53-48cad26e0b84:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: anchors
+    name: 'Page Anchors'
+    sortOrder: 11
+  6afbdca7-533a-45a0-bb00-95edfb56952b:
+    field: 9b558714-bbef-438d-83af-839f786cd1b3
+    fieldLayouts:
+      61ad8f30-a875-4f7d-b40d-4d8757553358:
+        tabs:
+          -
+            fields:
+              e49d8406-434e-426c-8fd9-9ea5d928fbad:
+                required: false
+                sortOrder: 1
+            name: Content
+            sortOrder: 1
+    fields:
+      e49d8406-434e-426c-8fd9-9ea5d928fbad:
+        contentColumnType: text
+        fieldGroup: null
+        handle: text
+        instructions: ''
+        name: __blank__
+        searchable: true
+        settings:
+          availableTransforms: '*'
+          availableVolumes: '*'
+          cleanupHtml: true
+          columnType: text
+          purifierConfig: ''
+          purifyHtml: '1'
+          redactorConfig: ''
+          removeEmptyTags: '1'
+          removeInlineStyles: '1'
+          removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: false
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\redactor\Field
+    handle: text
+    name: Text
+    sortOrder: 2
+  6b3edf09-6880-4d35-9b55-a675b9209ea9:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      67f3370b-0095-43d7-94eb-dfd8cf1670b9:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: image
+    name: Image
+    sortOrder: 5
+  8cfef9e7-93d4-4f67-83be-82873c49dd1f:
+    field: 9b558714-bbef-438d-83af-839f786cd1b3
+    fieldLayouts:
+      314b7be5-5330-48e5-96c5-f6fcb9f45996:
+        tabs:
+          -
+            fields:
+              0ea5db13-8890-4fb3-a3cd-88803df5acc2:
+                required: false
+                sortOrder: 4
+              223bce5c-f569-416a-ad97-4aa09f3c2063:
+                required: false
+                sortOrder: 12
+              3005b35a-8b26-4cb4-ac6b-44cad31cc1dd:
+                required: false
+                sortOrder: 11
+              48c2df2f-f4fd-495d-9b5b-240b9a44f099:
+                required: false
+                sortOrder: 7
+              48d076aa-e96b-46d3-9091-171d4d67e977:
+                required: false
+                sortOrder: 5
+              49e6ca69-cae2-4a12-86a4-dd103bd98e55:
+                required: false
+                sortOrder: 8
+              50e7ec17-c77e-4447-968d-115ba1673295:
+                required: false
+                sortOrder: 1
+              574d1415-14eb-4466-a9fa-cb112ab6efbe:
+                required: false
+                sortOrder: 3
+              5802fe26-3911-45e6-9ea9-a7f406a8b836:
+                required: false
+                sortOrder: 6
+              7642edf8-f0ea-4d73-8d66-a24dda2d3c3f:
+                required: false
+                sortOrder: 10
+              7838104c-36b6-4b08-948c-3571942fedd2:
+                required: false
+                sortOrder: 9
+              bbe60937-2399-4c17-8386-ce486fd109d7:
+                required: false
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      0ea5db13-8890-4fb3-a3cd-88803df5acc2:
+        contentColumnType: text
+        fieldGroup: null
+        handle: linkText
+        instructions: 'Text which appears on the button.'
+        name: 'Link Text'
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      223bce5c-f569-416a-ad97-4aa09f3c2063:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: full
+        instructions: ''
+        name: Full
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Lightswitch
+      3005b35a-8b26-4cb4-ac6b-44cad31cc1dd:
+        contentColumnType: string
+        fieldGroup: null
+        handle: imageRatio
+        instructions: 'Control the image ratio of the feature image.'
+        name: 'Image Ratio'
+        searchable: true
+        settings:
+          optgroups: true
+          options:
+            -
+              __assoc__:
+                -
+                  - label
+                  - '6:4'
+                -
+                  - value
+                  - 75%
+                -
+                  - default
+                  - '1'
+            -
+              __assoc__:
+                -
+                  - label
+                  - '16:9'
+                -
+                  - value
+                  - 60%
+                -
+                  - default
+                  - ''
+            -
+              __assoc__:
+                -
+                  - label
+                  - Square
+                -
+                  - value
+                  - 100%
+                -
+                  - default
+                  - ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Dropdown
+      48c2df2f-f4fd-495d-9b5b-240b9a44f099:
+        contentColumnType: text
+        fieldGroup: null
+        handle: backgroundColour
+        instructions: 'Add a background colour that will display when no background image is selected.'
+        name: 'Background Colour'
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: null
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      48d076aa-e96b-46d3-9091-171d4d67e977:
+        contentColumnType: string
+        fieldGroup: null
+        handle: horizontalPosition
+        instructions: 'The Image will either be positioned to the left or right of the text.'
+        name: 'Image Position'
+        searchable: true
+        settings:
+          optgroups: true
+          options:
+            -
+              __assoc__:
+                -
+                  - label
+                  - Left
+                -
+                  - value
+                  - left
+                -
+                  - default
+                  - ''
+            -
+              __assoc__:
+                -
+                  - label
+                  - Right
+                -
+                  - value
+                  - right
+                -
+                  - default
+                  - '1'
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Dropdown
+      49e6ca69-cae2-4a12-86a4-dd103bd98e55:
+        contentColumnType: string
+        fieldGroup: null
+        handle: backgroundImage
+        instructions: 'Image that will cover the entire background.'
+        name: 'Background Image'
+        searchable: true
+        settings:
+          allowedKinds:
+            - image
+          defaultUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          defaultUploadLocationSubpath: ''
+          limit: ''
+          localizeRelations: false
+          restrictFiles: '1'
+          selectionLabel: ''
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
+          singleUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          singleUploadLocationSubpath: '{owner.slug}'
+          source: null
+          sources: '*'
+          targetSiteId: null
+          useSingleFolder: true
+          validateRelatedElements: ''
+          viewMode: list
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Assets
+      50e7ec17-c77e-4447-968d-115ba1673295:
+        contentColumnType: string
+        fieldGroup: null
+        handle: imageAsset
+        instructions: 'Add a feature image to display next to the text.'
+        name: Image
+        searchable: true
+        settings:
+          allowedKinds: null
+          defaultUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          defaultUploadLocationSubpath: ''
+          limit: '2'
+          localizeRelations: false
+          restrictFiles: ''
+          selectionLabel: ''
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
+          singleUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          singleUploadLocationSubpath: '{owner.slug}'
+          source: null
+          sources: '*'
+          targetSiteId: null
+          useSingleFolder: true
+          validateRelatedElements: ''
+          viewMode: list
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Assets
+      574d1415-14eb-4466-a9fa-cb112ab6efbe:
+        contentColumnType: string
+        fieldGroup: null
+        handle: linkUrl
+        instructions: ''
+        name: 'Link URL'
+        searchable: true
+        settings:
+          limit: '1'
+          localizeRelations: false
+          selectionLabel: ''
+          source: null
+          sources: '*'
+          targetSiteId: null
+          validateRelatedElements: ''
+          viewMode: null
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Entries
+      5802fe26-3911-45e6-9ea9-a7f406a8b836:
+        contentColumnType: string
+        fieldGroup: null
+        handle: verticalPosition
+        instructions: ''
+        name: 'Vertical Alignment'
+        searchable: true
+        settings:
+          optgroups: true
+          options:
+            -
+              __assoc__:
+                -
+                  - label
+                  - Top
+                -
+                  - value
+                  - align-items-top
+                -
+                  - default
+                  - ''
+            -
+              __assoc__:
+                -
+                  - label
+                  - Center
+                -
+                  - value
+                  - align-items-center
+                -
+                  - default
+                  - ''
+            -
+              __assoc__:
+                -
+                  - label
+                  - Bottom
+                -
+                  - value
+                  - align-items-end
+                -
+                  - default
+                  - ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Dropdown
+      7642edf8-f0ea-4d73-8d66-a24dda2d3c3f:
+        contentColumnType: string
+        fieldGroup: null
+        handle: textColour
+        instructions: 'Change the text colour if a light or dark background image is used.'
+        name: 'Text Colour'
+        searchable: true
+        settings:
+          optgroups: true
+          options:
+            -
+              __assoc__:
+                -
+                  - label
+                  - Dark
+                -
+                  - value
+                  - dark-text
+                -
+                  - default
+                  - '1'
+            -
+              __assoc__:
+                -
+                  - label
+                  - Light
+                -
+                  - value
+                  - light-text
+                -
+                  - default
+                  - ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Dropdown
+      7838104c-36b6-4b08-948c-3571942fedd2:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: backgroundOverlay
+        instructions: 'Change the opacity of the colour.'
+        name: 'Background Overlay'
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Lightswitch
+      bbe60937-2399-4c17-8386-ce486fd109d7:
+        contentColumnType: text
+        fieldGroup: null
+        handle: richText
+        instructions: 'Add a paragraph of text.'
+        name: Text
+        searchable: true
+        settings:
+          availableTransforms: '*'
+          availableVolumes: '*'
+          cleanupHtml: true
+          columnType: text
+          purifierConfig: ''
+          purifyHtml: '1'
+          redactorConfig: ''
+          removeEmptyTags: '1'
+          removeInlineStyles: '1'
+          removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\redactor\Field
+    handle: imageWithText
+    name: 'Image with Text'
+    sortOrder: 3
+  9478496a-5aea-4bdb-abeb-6ddf7e2baa36:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      5fde23ad-8d4e-4cc9-bf23-ec3c83660c24:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: logos
+    name: Logos
+    sortOrder: 13
+  98209d30-fdb3-4ac3-8528-19aa2c33b386:
+    field: 9b558714-bbef-438d-83af-839f786cd1b3
+    fieldLayouts:
+      18d9c707-bf63-4005-b9f4-31461fd8b531:
+        tabs:
+          -
+            fields:
+              46f54b9d-6217-428e-a22b-f841386e6b20:
+                required: false
+                sortOrder: 1
+            name: Content
+            sortOrder: 1
+    fields:
+      46f54b9d-6217-428e-a22b-f841386e6b20:
+        contentColumnType: string
+        fieldGroup: null
+        handle: entry
+        instructions: ''
+        name: Entry
+        searchable: true
+        settings:
+          limit: '2'
+          localizeRelations: false
+          selectionLabel: ''
+          source: null
+          sources: '*'
+          targetSiteId: null
+          validateRelatedElements: ''
+          viewMode: null
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Entries
+    handle: quicklinks
+    name: Quicklinks
+    sortOrder: 7
+  9b9a5bc1-9afa-4c6e-b1be-343ce3ed44ce:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      2d9af4bf-cf70-4c87-bbc8-b7b5b372a5fb:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: quicklinks
+    name: Quicklinks
+    sortOrder: 14
+  9dcbcda9-0778-49f2-8a6d-4230edc00c18:
+    field: 9b558714-bbef-438d-83af-839f786cd1b3
+    fieldLayouts:
+      a5357a8e-ff59-49d3-b0f0-63303cb38ef2:
+        tabs:
+          -
+            fields:
+              08c3264b-003d-44e9-a265-689ba4a3dea9:
+                required: false
+                sortOrder: 1
+              9cadb0eb-ab1b-4250-9a15-34616a3d2206:
+                required: false
+                sortOrder: 3
+              f3527dee-d09b-4f28-a9dc-b719caaea809:
+                required: false
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      08c3264b-003d-44e9-a265-689ba4a3dea9:
+        contentColumnType: text
+        fieldGroup: null
+        handle: text
+        instructions: ''
+        name: Text
+        searchable: true
+        settings:
+          availableTransforms: '*'
+          availableVolumes: '*'
+          cleanupHtml: true
+          columnType: text
+          purifierConfig: ''
+          purifyHtml: '1'
+          redactorConfig: ''
+          removeEmptyTags: '1'
+          removeInlineStyles: '1'
+          removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\redactor\Field
+      9cadb0eb-ab1b-4250-9a15-34616a3d2206:
+        contentColumnType: text
+        fieldGroup: null
+        handle: backgroundColour
+        instructions: 'Add a background colour that will display when no background image is selected.'
+        name: 'Background Colour'
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: null
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      f3527dee-d09b-4f28-a9dc-b719caaea809:
+        contentColumnType: string
+        fieldGroup: null
+        handle: logos
+        instructions: ''
+        name: Logos
+        searchable: true
+        settings:
+          allowedKinds: null
+          defaultUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          defaultUploadLocationSubpath: ''
+          limit: ''
+          localizeRelations: false
+          restrictFiles: ''
+          selectionLabel: ''
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
+          singleUploadLocationSource: 'volume:7d125e71-0b61-483d-8b4c-daf74c1dcec6'
+          singleUploadLocationSubpath: '{owner.slug}/logos'
+          source: null
+          sources: '*'
+          targetSiteId: null
+          useSingleFolder: true
+          validateRelatedElements: ''
+          viewMode: list
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Assets
+    handle: logos
+    name: Logos
+    sortOrder: 6
+  a2a34398-329b-4448-9951-56f1e7963706:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      5dcd8d96-9175-4408-85b6-b76d66bbb860:
+        tabs:
+          -
+            fields:
+              21aace31-9928-408f-9dc9-aab1654dcf5a:
+                required: false
+                sortOrder: 2
+              89e2787f-6ee4-4ef7-821d-faa09ec46257:
+                required: false
+                sortOrder: 1
+              8e6f1b7d-55fb-42f1-bbab-df1aabea3580:
+                required: false
+                sortOrder: 6
+              acf6980c-06a2-4997-ae87-630a7565d8a0:
+                required: false
+                sortOrder: 3
+              e972e844-1a90-4420-aadb-e2c8acf33f6a:
+                required: false
+                sortOrder: 5
+              fc1f7139-e14d-4b04-9e84-5f1edd97b108:
+                required: false
+                sortOrder: 7
+              ffada725-7935-4a13-8d11-9c900cf599d4:
+                required: false
+                sortOrder: 4
+            name: Content
+            sortOrder: 1
+    fields:
+      21aace31-9928-408f-9dc9-aab1654dcf5a:
+        contentColumnType: text
+        fieldGroup: null
+        handle: backgroundColour
+        instructions: ''
+        name: 'Background Colour'
+        searchable: true
+        settings:
+          options:
+            -
+              __assoc__:
+                -
+                  - label
+                  - white
+                -
+                  - color
+                  - '#ffffff'
+                -
+                  - default
+                  - ''
+            -
+              __assoc__:
+                -
+                  - label
+                  - black
+                -
+                  - color
+                  - '#000000'
+                -
+                  - default
+                  - ''
+          palette: 'Page Builder'
+          useConfigFile: '1'
+        translationKeyFormat: null
+        translationMethod: none
+        type: rias\colourswatches\fields\ColourSwatches
+      89e2787f-6ee4-4ef7-821d-faa09ec46257:
+        contentColumnType: text
+        fieldGroup: null
+        handle: text
+        instructions: ''
+        name: __blank__
+        searchable: true
+        settings:
+          availableTransforms: '*'
+          availableVolumes: '*'
+          cleanupHtml: '1'
+          columnType: text
+          purifierConfig: ''
+          purifyHtml: '1'
+          redactorConfig: ''
+          removeEmptyTags: true
+          removeInlineStyles: true
+          removeNbsp: true
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\redactor\Field
+      8e6f1b7d-55fb-42f1-bbab-df1aabea3580:
+        contentColumnType: string
+        fieldGroup: null
+        handle: textPosition
+        instructions: ''
+        name: 'Text Page Position'
+        searchable: true
+        settings:
+          optgroups: true
+          options:
+            -
+              __assoc__:
+                -
+                  - label
+                  - Left
+                -
+                  - value
+                  - justify-content-start
+                -
+                  - default
+                  - '1'
+            -
+              __assoc__:
+                -
+                  - label
+                  - Center
+                -
+                  - value
+                  - justify-content-center
+                -
+                  - default
+                  - ''
+            -
+              __assoc__:
+                -
+                  - label
+                  - Right
+                -
+                  - value
+                  - justify-content-end
+                -
+                  - default
+                  - ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Dropdown
+      acf6980c-06a2-4997-ae87-630a7565d8a0:
+        contentColumnType: string
+        fieldGroup: null
+        handle: backgroundImage
+        instructions: ''
+        name: 'Background Image'
+        searchable: true
+        settings:
+          allowedKinds:
+            - image
+          defaultUploadLocationSource: 'volume:globals'
+          defaultUploadLocationSubpath: ''
+          limit: '1'
+          localizeRelations: false
+          restrictFiles: '1'
+          selectionLabel: ''
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
+          singleUploadLocationSource: 'volume:globals'
+          singleUploadLocationSubpath: ''
+          source: null
+          sources: '*'
+          targetSiteId: null
+          useSingleFolder: true
+          validateRelatedElements: ''
+          viewMode: list
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Assets
+      e972e844-1a90-4420-aadb-e2c8acf33f6a:
+        contentColumnType: string
+        fieldGroup: null
+        handle: textWidth
+        instructions: ''
+        name: 'Text Width'
+        searchable: true
+        settings:
+          optgroups: true
+          options:
+            -
+              __assoc__:
+                -
+                  - label
+                  - Default
+                -
+                  - value
+                  - 'col-12 col-md-8'
+                -
+                  - default
+                  - '1'
+            -
+              __assoc__:
+                -
+                  - label
+                  - 75%
+                -
+                  - value
+                  - 'col-12 col-md-7'
+                -
+                  - default
+                  - ''
+            -
+              __assoc__:
+                -
+                  - label
+                  - 50%
+                -
+                  - value
+                  - 'col-12 col-md-6'
+                -
+                  - default
+                  - ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Dropdown
+      fc1f7139-e14d-4b04-9e84-5f1edd97b108:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: textAlignment
+        instructions: ''
+        name: 'Text Align Center'
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Lightswitch
+      ffada725-7935-4a13-8d11-9c900cf599d4:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: backgroundOverlay
+        instructions: ''
+        name: 'Background Overlay'
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Lightswitch
+    handle: text
+    name: Text
+    sortOrder: 1
+  a796afc5-fea2-44a8-810a-f04e3e357acc:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      6eb0f000-6259-47ad-993b-6d132b589aa2:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: testimonials
+    name: Testimonials
+    sortOrder: 4
+  b0395ec0-a80b-4ae9-8db7-e61473d6f9e3:
+    field: 9b558714-bbef-438d-83af-839f786cd1b3
+    fieldLayouts:
+      abab35d6-4289-4356-a3ad-a91e69944521:
+        tabs:
+          -
+            fields:
+              240b0721-911f-422a-b8ec-2dee80881aac:
+                required: false
+                sortOrder: 1
+              e4d3c6e7-22c0-43ea-a758-5c2f853d6f57:
+                required: false
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      240b0721-911f-422a-b8ec-2dee80881aac:
+        contentColumnType: text
+        fieldGroup: null
+        handle: heading
+        instructions: ''
+        name: Heading
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      e4d3c6e7-22c0-43ea-a758-5c2f853d6f57:
+        contentColumnType: string
+        fieldGroup: null
+        handle: workCards
+        instructions: 'Select the work projects you want featured on the homepage.'
+        name: 'Work Cards'
+        searchable: true
+        settings:
+          limit: ''
+          localizeRelations: false
+          selectionLabel: ''
+          source: null
+          sources: '*'
+          targetSiteId: null
+          validateRelatedElements: ''
+          viewMode: null
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Entries
+    handle: projects
+    name: Projects
+    sortOrder: 5
+  c3c66c84-668b-4eb7-af7f-19fc1ba0675c:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      9bf85596-fa0a-44ae-8823-88b4a67e2a0d:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: accordion
+    name: Accordion
+    sortOrder: 10
+  e6954c1b-e47d-4af9-b591-280f75987e61:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      867c715e-4120-46ed-b9e8-84788b334003:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: contactForm
+    name: 'Contact Form'
+    sortOrder: 9
+  fac8ca47-0b33-4c80-ae3a-dda8430c0f18:
+    field: 77639344-5367-409f-8451-dad20496dbb1
+    fieldLayouts:
+      1821d602-4945-41d9-80d4-68ec69fb7d28:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+    handle: textColumns
+    name: 'Text Columns'
+    sortOrder: 2
+  fd98fefe-0f89-4018-9f4d-4df7d400090e:
+    field: 3e714f4c-815e-4026-bd8f-83431c53914c
+    fieldLayouts:
+      d5e1ddef-22d9-4c76-8f1e-527ebf5472a1:
+        tabs:
+          -
+            fields:
+              a09e183b-4c24-4639-b473-d1999a783ad5:
+                required: false
+                sortOrder: 1
+              e339d7b9-3596-4391-b579-fbbafc09adb4:
+                required: false
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      a09e183b-4c24-4639-b473-d1999a783ad5:
+        contentColumnType: text
+        fieldGroup: null
+        handle: heading
+        instructions: ''
+        name: Heading
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      e339d7b9-3596-4391-b579-fbbafc09adb4:
+        contentColumnType: text
+        fieldGroup: null
+        handle: linkUrl
+        instructions: ''
+        name: Link
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+    handle: navigationItem
+    name: 'Navigation Item'
+    sortOrder: 1
+plugins:
+  architect:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  campaign:
+    edition: lite
+    enabled: false
+    schemaVersion: 1.10.0
+    settings:
+      apiKey: Y04gp6z9ftpzdlhT
+      batchJobDelay: 10
+      contactFieldLayoutId: null
+      emailFieldLabel: Email
+      fromNamesEmails:
+        -
+          - 'Craft Components'
+          - hello@leightonhughes.co
+          - ''
+          - '1'
+      geoIp: false
+      ipstackApiKey: null
+      maxBatchSize: 1000
+      maxPendingContacts: 5
+      maxRetryAttempts: 10
+      maxSendAttempts: 3
+      memoryLimit: 1024M
+      memoryThreshold: 0.8
+      purgePendingContactsDuration: 0
+      reCaptcha: false
+      reCaptchaBadge: null
+      reCaptchaErrorMessage: 'Your form submission was blocked by Google reCAPTCHA. Please go back and try again.'
+      reCaptchaSecretKey: null
+      reCaptchaSiteKey: null
+      reCaptchaSize: null
+      reCaptchaTheme: null
+      reCaptchaVersion: 2
+      sendoutJobTtr: 300
+      testMode: false
+      timeLimit: 3600
+      timeThreshold: 0.8
+      transportSettings: null
+      transportType: craft\mail\transportadapters\Sendmail
+      unlimitedMemoryLimit: 4G
+      unlimitedTimeLimit: 3600
+  colour-swatches:
+    edition: standard
+    enabled: false
+    schemaVersion: 1.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form-extensions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form-tuner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-accordion-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-article-heading:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-banner-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-base:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-blog:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-blog-builder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-cards:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-cta-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-email-builder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-events:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-form-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-gallery-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-hero-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-home-builder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-html-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-image-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-image-grid-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-image-text-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-instagram-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-isidore-builder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-logo-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-notices-builder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-page-builder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-pdf-builder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-project-builder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-projects-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-resource-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-site-footer:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-site-header:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-site-nav:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-subscribe-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-testimonials-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-text-block:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  imager:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  inlin:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  instagramfeed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  redactor-tweaks:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  stamp:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+sections:
+  2c1b463b-51d5-4047-b7f8-21128a93d9b4:
+    enableVersioning: true
+    entryTypes:
+      477196c4-4718-4456-92b0-a917301427dd:
+        fieldLayouts:
+          4c7b4a87-76da-466f-a9ab-17be79f5bf88:
+            tabs:
+              -
+                fields:
+                  9b558714-bbef-438d-83af-839f786cd1b3:
+                    required: false
+                    sortOrder: 1
+                name: Home
+                sortOrder: 1
+        handle: pages
+        hasTitleField: false
+        name: Home
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
+    handle: home
+    name: Home
+    propagationMethod: all
+    siteSettings:
+      2a1addf5-94a0-49b2-acea-186940a31253:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: __home__
+    type: single
+  443f7623-384f-4136-9799-203dd7b16c96:
+    enableVersioning: true
+    entryTypes:
+      46189646-304f-48ff-bc2f-81517e6c5908:
+        handle: pages
+        hasTitleField: true
+        name: Pages
+        sortOrder: 1
+        titleFormat: null
+        titleLabel: Title
+    handle: pages
+    name: Pages
+    propagationMethod: all
+    siteSettings:
+      2a1addf5-94a0-49b2-acea-186940a31253:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: 'pages/{slug}'
+    structure:
+      maxLevels: null
+      uid: 1b5ea390-940a-4f4a-b4dd-96b3267d91ae
+    type: structure
+siteGroups:
+  33974cb3-1049-4055-a811-1cfbc8204b52:
+    name: 'Craft Components'
+sites:
+  2a1addf5-94a0-49b2-acea-186940a31253:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: 'Craft Components'
+    primary: true
+    siteGroup: 33974cb3-1049-4055-a811-1cfbc8204b52
+    sortOrder: 1
+superTableBlockTypes:
+  03076897-3dd5-4439-9646-22ea912bd9d2:
+    field: 333bfd34-f2e5-457e-b6c3-7c3117a9a089
+    fieldLayouts:
+      e04dc3e3-50bc-44e0-a3bf-412e8665f359:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: 'Craft Components'
+  schemaVersion: 3.4.10
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
+volumes:
+  7d125e71-0b61-483d-8b4c-daf74c1dcec6:
+    handle: general
+    hasUrls: true
+    name: General
+    settings:
+      path: ./assets/general/
+    sortOrder: 1
+    type: craft\volumes\Local
+    url: '@web/assets/general/'
+  a69af9b1-500d-445e-91f7-80503655b13e:
+    handle: globals
+    hasUrls: true
+    name: Globals
+    settings:
+      path: ./assets/globals/
+    sortOrder: 2
+    type: craft\volumes\Local
+    url: '@web/assets/globals/'

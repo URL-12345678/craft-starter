@@ -1,0 +1,80 @@
+{
+  "name": "leightonhughes/craft-starter",
+  "require": {
+    "craftcms/cms": "^3.4.0",
+    "vlucas/phpdotenv": "^3.4.0",
+    
+    "aelvan/stamp": "^2.1",
+    "mmikkel/cp-field-inspect": "^1.0",
+    "vaersaagod/matrixmate": "^1.2",
+
+    "craftcms/redactor": "^2.5",
+    "verbb/redactor-tweaks": "^2.0",
+    "verbb/super-table": "^2.4",
+    
+    "pennebaker/craft-architect": "^2.3",
+    "rias/craft-colour-swatches": "^1.2",
+
+    "leightonhughes/craft-accordion-block": "@dev",
+    "leightonhughes/craft-banner-block": "@dev",
+    "leightonhughes/craft-cta-block": "@dev",
+    "leightonhughes/craft-form-block": "@dev",
+    "leightonhughes/craft-gallery-block": "@dev",
+    "leightonhughes/craft-hero-block": "@dev",
+    "leightonhughes/craft-html-block": "@dev",
+    "leightonhughes/craft-image-block": "@dev",
+    "leightonhughes/craft-image-grid-block": "@dev",
+    "leightonhughes/craft-image-text-block": "@dev",
+    "leightonhughes/craft-instagram-block": "@dev", 
+    "leightonhughes/craft-logo-block": "@dev",
+    "leightonhughes/craft-projects-block": "@dev",
+    "leightonhughes/craft-resource-block": "@dev",
+    "leightonhughes/craft-subscribe-block": "@dev",
+    "leightonhughes/craft-testimonials-block": "@dev",
+    "leightonhughes/craft-text-block": "@dev",
+
+    "leightonhughes/craft-email-builder": "@dev",
+    "leightonhughes/craft-isidore-builder": "@dev",
+    "leightonhughes/craft-notices-builder": "@dev",
+    "leightonhughes/craft-page-builder": "@dev",
+    "leightonhughes/craft-pdf-builder": "@dev",
+    "leightonhughes/craft-project-builder": "@dev",
+
+    "leightonhughes/craft-article-heading": "@dev",
+    "leightonhughes/craft-base": "@dev",
+    "leightonhughes/craft-blog": "@dev",
+    "leightonhughes/craft-cards": "@dev",
+    "leightonhughes/craft-events": "@dev",
+    "leightonhughes/craft-site-footer": "@dev",
+    "leightonhughes/craft-site-header": "@dev",
+    "leightonhughes/craft-site-nav": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "modules\\": "modules/"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.0"
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../craft-components/packages/*/*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ]
+}

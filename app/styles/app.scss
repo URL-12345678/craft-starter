@@ -1,0 +1,39 @@
+//----------------------------------------------------------------------------------------------------------------------------------// 
+// Settings
+//----------------------------------------------------------------------------------------------------------------------------------// 
+
+@import "node_modules/bootstrap/scss/functions";
+@import "settings/variables";
+
+//----------------------------------------------------------------------------------------------------------------------------------// 
+// Packages
+//----------------------------------------------------------------------------------------------------------------------------------// 
+
+// Base styles
+@import "../../vendor/leightonhughes/craft-base/src/scss";
+
+// Global Blocks
+@import "../../vendor/leightonhughes/craft-site-header/src/scss";
+@import "../../vendor/leightonhughes/craft-site-nav/src/scss";
+@import "../../vendor/leightonhughes/craft-site-footer/src/scss/portfolio";
+
+// General Blocks
+@import "../../vendor/leightonhughes/craft-banner-block/src/scss";
+@import "../../vendor/leightonhughes/craft-text-block/src/scss";
+@import "../../vendor/leightonhughes/craft-image-text-block/src/scss";
+
+// Home Blocks
+@import "../../vendor/leightonhughes/craft-hero-block/src/scss";
+@import "../../vendor/leightonhughes/craft-projects-block/src/scss";
+@import "../../vendor/leightonhughes/craft-logo-block/src/scss";
+
+// Blog
+@import "../../vendor/leightonhughes/craft-cards/src/scss";
+@import "../../vendor/leightonhughes/craft-blog/src/scss";
+
+//----------------------------------------------------------------------------------------------------------------------------------// 
+// Site styles
+//----------------------------------------------------------------------------------------------------------------------------------// 
+
+@import "custom";
+@import "components/navigation";

@@ -1,0 +1,75 @@
+//
+// Shape overlay overrides
+//
+
+.global-menu {
+	height: 100vh;
+}
+
+.global-menu__item {
+	font-size: $h3;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.hamburger--demo-3 {
+	// --color-text: #fbd54a;
+	// --color-bg: #333;
+	// --color-link: #4d4f5f;
+	// --color-link-hover: #bfb5b5;
+	// --color-info: #fff;
+	// --color-main-bg: #24262d;
+	--path-fill-1: #000000;
+	--path-fill-2: #1d1d1f;
+	// --path-fill-3: blue;
+	// --color-title: #fff;
+	// --font-family-title: 'Arapey', serif;
+	// --font-size-title: 5vmax;
+	// --font-weight-title: 400;
+	--color-menu: white;
+	// --color-menu-hover: #fff;
+	--font-family-menu: inherit;
+	--font-size-menu: 5vmax;
+	--font-weight-menu: 700;
+	--button-bg: #fff;
+	--button-circle: #ada4a4;
+    --button-line: #222;
+}
+
+.global-menu__wrap {
+    text-align: center;
+}
+
+.global-menu__item a {
+	// transition: color $trans ease-in-out;
+	color: white;
+	transition: color $trans ease-in-out;
+
+	&:hover {
+		color: rgba(255,255,255, 0.5);
+	}
+}
+
+.shape-overlays__path:nth-of-type(3) {
+	fill: url(#myGrad);
+}
+
+/* Timings Added */
+
+.global-menu__item--demo-3:nth-of-type(5) {
+	transition-delay: 0s;
+}
+
+.global-menu__item--demo-3.is-opened:nth-of-type(5) {
+	transition-delay: 0.85s;
+}
+
+.global-menu__item--demo-3:nth-of-type(6) {
+	transition-delay: 0s;
+}
+
+.global-menu__item--demo-3.is-opened:nth-of-type(6) {
+	transition-delay: 0.9s;
+}
