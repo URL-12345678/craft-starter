@@ -1,7 +1,7 @@
 {
   "name": "leightonhughes/craft-starter",
   "description": "A starter Craft installation",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "type": "project",
   "require": {
@@ -22,15 +22,11 @@
   },
   "scripts": {
     "post-root-package-install": [
-      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
-      "npm login --registry=https://npm.pkg.github.com",
-      "npm install"
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
     ],
     "post-create-project-cmd": [
       "@php -r \"unlink('composer.json');\"",
-      "@php -r \"rename('composer.json.default', 'composer.json');\"",
-      "@composer dump-autoload -o",
-      "@php craft setup/welcome"
+      "@php -r \"rename('composer.default.json', 'composer.json');\""
     ]
   },
   "minimum-stability": "dev",

@@ -1,7 +1,7 @@
 {
   "name": "leightonhughes/craft-starter",
   "description": "A starter Craft installation",
-  "version": "1.0.7",
+  "version": "1.0",
   "license": "MIT",
   "type": "project",
   "require": {

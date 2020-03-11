@@ -5,7 +5,6 @@
 .settings
 .env
 .idea
-.npmrc
 .env
 
 *.esproj
