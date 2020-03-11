@@ -1,9 +1,4 @@
 {
-  "name": "leightonhughes/craft-starter",
-  "description": "A starter Craft installation",
-  "version": "1.0",
-  "license": "MIT",
-  "type": "project",
   "require": {
     "craftcms/cms": "^3.4.0",
     "vlucas/phpdotenv": "^3.4.0",
@@ -11,11 +6,9 @@
     "aelvan/stamp": "^2.1",
     "mmikkel/cp-field-inspect": "^1.0",
     "vaersaagod/matrixmate": "^1.2",
-
     "craftcms/redactor": "^2.5",
     "verbb/redactor-tweaks": "^2.0",
     "verbb/super-table": "^2.4",
-    
     "pennebaker/craft-architect": "^2.3",
     "rias/craft-colour-swatches": "^1.2",
 
@@ -75,7 +68,7 @@
   "repositories": [
     {
       "type": "path",
-      "url": "../craft-components/packages/*/*",
+      "url": "node_modules/@leightonhughes/*",
       "options": {
         "symlink": true
       }
